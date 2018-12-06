@@ -1,0 +1,60 @@
+
+
+.header
+{
+    text-align:center;
+    background-color:#2b2b2b;
+    
+    padding-top:3vw;
+    padding-bottom:3vw;
+    margin-top:2vw;
+
+
+}
+
+h3{
+    color:white;
+}
+
+
+
+.navbar{
+
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+
+
+}	
+
+.collapse
+{
+    text-align:center;
+    
+
+}
+
+.navbar-toggler-icon
+{
+    text-align:center;
+    flex: 1;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+.nav-link
+{
+
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    letter-spacing:2px;
+    font-weight:lighter;
+
+}
+
+a{
+    font-size:20px;
+    margin-right:1vw;
+}

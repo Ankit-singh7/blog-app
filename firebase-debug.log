@@ -1,0 +1,26 @@
+[debug] [2018-12-04T18:49:54.735Z] ----------------------------------------------------------------------
+[debug] [2018-12-04T18:49:54.739Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2018-12-04T18:49:54.739Z] CLI Version:   6.1.2
+[debug] [2018-12-04T18:49:54.739Z] Platform:      win32
+[debug] [2018-12-04T18:49:54.739Z] Node Version:  v10.13.0
+[debug] [2018-12-04T18:49:54.741Z] Time:          Wed Dec 05 2018 00:19:54 GMT+0530 (India Standard Time)
+[debug] [2018-12-04T18:49:54.741Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-04T18:49:54.759Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-04T18:49:54.760Z] > authorizing via signed-in user
+[debug] [2018-12-04T18:49:54.764Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2018-12-04T18:49:56.493Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-04T18:50:13.417Z] TypeError: Cannot read property 'short' of undefined
+    at Prompt.render (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:94:69)
+    at Prompt.onSubmit (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:116:8)
+    at AnonymousObserver.Rx.AnonymousObserver.AnonymousObserver.next (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1535:12)
+    at AnonymousObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+    at AnonymousObserver.tryCatcher (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:63:31)
+    at AutoDetachObserverPrototype.next (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:5782:51)
+    at AutoDetachObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+    at AnonymousObserver._onNext (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:4234:13)
+    at AnonymousObserver.Rx.AnonymousObserver.AnonymousObserver.next (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1535:12)
+    at AnonymousObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+[error] 
+[error] Error: An unexpected error has occurred.
